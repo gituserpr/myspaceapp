@@ -28,7 +28,7 @@ stages:
     cfAppName: "myspaceapp"
     cfCredentialsId: "deploy-to-cf"
     deployType: "standard"
-    tmsUpload: true
+    tmsUpload: false
 steps:
   artifactPrepareVersion:
     versioningType: "cloud_noTag"
